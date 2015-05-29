@@ -7,6 +7,9 @@
 
 #include <QString>
 
+#include <math.h> /* ../src/graph/hooks/meta.cpp:98:26: error: 'isinf' was not declared in this scope
+     if (isinf(bounds.xmin) || isinf(bounds.xmax) || */
+
 using namespace boost::python;
 
 Shape ScriptMetaHooks::get_shape(tuple args)
