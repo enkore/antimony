@@ -7,7 +7,7 @@
 #include "tree/tree.h"
 #include "tree/parser.h"
 #include "tree/eval.h"
-#include "util/interval."
+#include "util/interval.h"
 
 using std::isinf; /* ../src/fab/types/bounds.cpp:84:23: error: 'isinf' was not declared in this scope
      return !isinf(xmin) && !isinf(ymin) &&
