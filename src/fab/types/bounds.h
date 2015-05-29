@@ -3,6 +3,8 @@
 
 #include "transform.h"
 
+using std::isinf;
+
 struct Bounds
 {
 public:
